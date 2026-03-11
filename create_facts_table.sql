@@ -22,3 +22,5 @@ alter table fact_sales
 add constraint fk_customer
 foreign key (customer_id)
 references dim_customer(customer_id);
+
+
